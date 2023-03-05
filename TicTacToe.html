@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="TicTacToe.css">
+</head>
+<body class="container-fluid bg-primary">
+
+    <div class="container bg-secondary">
+        <div class="row">
+            <h1 class="text-center">TicTacToe</h1>
+            <h1 class = "text-center" id="winMessage"></h1>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button type="button" id="reset" >Reset Game</button>
+            </div>
+        </div><br>
+    </div><br><br>
+
+    <div class="container d-flex justify-content-center" id="game-board" >
+        <table class="bg-dark" id = "board">
+          <tr>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+            <td>
+              <div class="cell" data-cell></div>
+            </td>
+          </tr>
+        </table>
+    </div>
+
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="TicTacToe.js"></script>
+
+</body>
+</html>
