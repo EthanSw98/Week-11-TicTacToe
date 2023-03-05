@@ -1,0 +1,46 @@
+
+table {
+    max-width: 500px;
+    max-height: 500px;
+    width: 85vw;  
+    height: 85vw;
+    border-spacing: 2px 4px;  
+  }
+
+
+  td {
+    padding: 8px;
+    width: 33%;  
+    height: 33%;
+  }
+
+
+  .cell {
+    font-size:6em; 
+    height: 100%;  
+    width: 100%;
+    background-color:white;
+    justify-content:center;
+    
+    display:flex;
+    cursor:pointer;
+  }
+
+  button {
+    cursor:pointer;
+  }
+
+  .cell.x::after{
+    content:'X';
+  }
+
+  .cell.o::after{
+    content:"O";
+  }
+
+  .cell.x, .cell.o {
+    cursor:not-allowed;
+  }
+
+
+  
